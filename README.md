@@ -124,8 +124,9 @@ ____
 **If command faucet don`t work:**  
 - Go to http://35.224.207.121/
 - Connect a purse (To connect a wallet given to you on the server with the site you need to previously connect it to Keplr, using the secret phrase given when creating a purse)
-- Click "Claim MAND"
-**Check balance**
+- Click "Claim MAND"  
+![](https://i2.paste.pics/bcdc5c363d5c64da7043f122b8416162.png)  
+- **Check balance**
 ## Create validator
 :exclamation:**AFTER YOUR NODE IS SYNCED**  - check `mande-chaind status 2>&1 | jq .SyncInfo` shoud be `false`
 
