@@ -12,7 +12,7 @@ There is no special difficulty in installation, just follow the instructions.
 [Official Documentation](https://github.com/mande-labs/testnet-1)
 ## Explorer
 [STAVR](https://explorer.stavr.tech/mande-chain/)  
-[Jambulmerah](https://explorer.jambulmerah.dev/mande-testnet/)
+[Jambulmerah](https://explorer.jambulmerah.dev/mande-testnet/)  
 [ANode](https://test.anode.team/mande-network/staking)
 
 ### **INCENTIVES TESTNET**  
