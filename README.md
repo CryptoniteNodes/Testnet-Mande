@@ -47,6 +47,9 @@ ____
     curl -OL https://github.com/mande-labs/testnet-1/raw/main/mande-chaind
     mv mande-chaind /usr/local/bin
     chmod 744 /usr/local/bin/mande-chaind  
+### Init
+    mande-chaind init <node name> --chain-id mande-testnet-1
+`<node name>` - create your node name
 ### Create wallet
     mande-chaind keys add <wallet>
 `<Wallet>` - name your wallet  
@@ -56,9 +59,6 @@ ____
     mande-chaind keys add <wallet> --recover
 ### Download genesis file
     wget -O $HOME/.mande-chain/config/genesis.json "https://raw.githubusercontent.com/mande-labs/testnet-1/main/genesis.json"
-### Init
-    mande-chaind init <node name> --chain-id mande-testnet-1
-`<node name>` - create your node name
 ### Set up the minimum gas price,peers and seeds
     sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.0mand\"/;" ~/.mande-chain/config/app.toml
     sed -i -e "s/^filter_peers *=.*/filter_peers = \"true\"/" $HOME/.mande-chain/config/config.toml
